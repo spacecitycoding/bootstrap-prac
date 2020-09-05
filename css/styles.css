@@ -12,7 +12,7 @@ font-family: 'Ubuntu', sans-serif;
 */
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1{
@@ -70,10 +70,15 @@ color: #8f8f8f;
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 #features{
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .f-box{
@@ -120,3 +125,35 @@ color: #8f8f8f;
 .pricing-col{
     padding: 3% 2%;
 }
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align:center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
