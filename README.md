@@ -1,1 +1,1 @@
-TinDog Starting Files
+This website is practice using bootstrap from the course.
