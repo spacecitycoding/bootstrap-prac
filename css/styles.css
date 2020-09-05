@@ -1,6 +1,8 @@
 /*HTML ELEMENT SELECTORS*/
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center; /* ADD center here since most of the website uses it
+    proceed to delete repeated center from code*/
 }
 
 h1, h2, h3{
@@ -84,15 +86,12 @@ p{
 }
 
 .f-box{
-    text-align:center;
     padding: 5%;
 }
 
 /* Testimonial Section */
 
 #testimonials{
-
-    text-align: center;
     background-color:#ef8172;
     color: white;
 }
@@ -110,7 +109,6 @@ p{
 
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -126,7 +124,6 @@ p{
 
 #pricing{
     padding:100px;
-    text-align: center;
 }
 
 .pricing-col{
@@ -142,18 +139,16 @@ p{
     background-color: #ff4c68;
     color: white;
     padding: 7% 15%;
-    text-align: center;
 }
 
 
 #footer{
     padding: 7% 15%;
-    text-align: center;
 }
 
 @media (max-width:1028px){
     #title{
-        text-align:center;
+        text-align: center;
     }
 
     .title-image{
