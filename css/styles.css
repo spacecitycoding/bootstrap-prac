@@ -20,11 +20,12 @@ p{
 #title{
     background-color: #ff4c68;
     color: white;
+    text-align: left;
 }
 
 
 .container-fluid{
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
 .big-heading{
@@ -75,7 +76,6 @@ p{
 }
 
 #features{
-    padding: 7% 15%;
     background-color: white;
     position: relative;
     z-index: 1;
@@ -118,10 +118,6 @@ p{
 }
 
 
-.carousel-item{
-    padding: 7% 15%;
-}
-
 #pricing{
     padding:100px;
 }
@@ -138,12 +134,6 @@ p{
 #cta{
     background-color: #ff4c68;
     color: white;
-    padding: 7% 15%;
-}
-
-
-#footer{
-    padding: 7% 15%;
 }
 
 @media (max-width:1028px){
