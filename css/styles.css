@@ -17,16 +17,22 @@ p{
     
     }
 
-#title{
+    /* Containers */
+    .container-fluid{
+        padding: 7% 15%;
+    }
+    
+/* sections */
+.colored-section{
     background-color: #ff4c68;
     color: white;
-    text-align: left;
+}
+
+.white-section{
+    background-color: white;
 }
 
 
-.container-fluid{
-    padding: 7% 15%;
-}
 
 .big-heading{
     font-family: 'Montserrat', sans-serif;
@@ -67,6 +73,14 @@ p{
     margin: 5% 3% 5% 0;
 }
 
+    /* Title Section */
+
+    #title .container-fluid{
+        padding: 3% 15% 7%;
+        text-align: left;
+    }
+    
+
 /* Title Image */
 .title-image{
     width: 60%;
@@ -76,7 +90,6 @@ p{
 }
 
 #features{
-    background-color: white;
     position: relative;
     z-index: 1;
 }
@@ -93,7 +106,6 @@ p{
 
 #testimonials{
     background-color:#ef8172;
-    color: white;
 }
 
 .testimonial-image{
@@ -131,10 +143,6 @@ p{
     line-height: 1.5;
 }
 
-#cta{
-    background-color: #ff4c68;
-    color: white;
-}
 
 @media (max-width:1028px){
     #title{
